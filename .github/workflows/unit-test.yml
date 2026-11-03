@@ -95,3 +95,5 @@ jobs:
           ls -R reports || echo "No reports folder"
           echo "Coverage folder:"
           ls -R coverage || echo "No coverage folder"
+
+# Touched once to make GitHub index this workflow on the default branch.

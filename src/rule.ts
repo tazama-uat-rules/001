@@ -16,7 +16,7 @@ export async function handleTransaction(
   const transaction = req.transaction as BaseMessage;
   
   if (!ruleConfig.config.bands) {
-    throw new Error('Invalid config provided - bands not provided');
+    throw new Error('Invalid config provided');
   }
   if (!ruleConfig.config.exitConditions) {
     throw new Error('Invalid config provided - exitConditions not provided');
